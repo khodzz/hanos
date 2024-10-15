@@ -4,10 +4,17 @@
     box-sizing: border-box;
     list-style: none;
 }
+a {
+    text-decoration: none;
+}
 .container{
     margin: 0 auto;
     max-width: 1400px;
 
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
 }
 .first-ul{
     display: flex;
@@ -19,6 +26,14 @@
     text-decoration: none;
 }
 .header__nav_link:hover{
+    text-decoration: underline;
+}
+.dropdown-button{
+    background: none;
+    border: none;
+    color: rgb(105, 4, 138);
+}
+.dropdown-button:hover{
     text-decoration: underline;
 }
 .dropmenu{
@@ -40,4 +55,8 @@
     height: 100%;
     color: rgb(105, 4, 138);
     font-size: 14px;
+}
+.header__nav_right-side_ul{
+    display: flex;
+    gap:15px;
 }
