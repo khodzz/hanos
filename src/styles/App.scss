@@ -1,5 +1,10 @@
 @import "./_fonts.scss";
 
 body {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1380px;
+  margin: 0 auto;
 }
