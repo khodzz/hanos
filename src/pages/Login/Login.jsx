@@ -3,7 +3,7 @@ import "./Login.scss";
 
 const Login = () => {
   return (
-    <div>
+    <div className="login">
       <div className="container">
         <p className="login__link">
           You are here: <span>Home</span>: Login
