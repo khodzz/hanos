@@ -85,10 +85,15 @@
   height: 50px;
   padding: 10px;
   border-radius: 10px 0 0 10px;
+  outline: 0;
+  border: 0;
+  font-style: italic;
+  font: inherit;
+  padding-left: 40px;
 }
 .search-btn {
   width: 70px;
-  height: 49px;
+  height: 50 px;
   background: #f0ad4e;
   border: none;
   font-size: 16px;
@@ -143,7 +148,8 @@
   text-decoration: underline;
 }
 .user-admin-add_link_span {
-  font-weight: 400;
+  font-weight: 600;
+  opacity: 0.8;
 }
 .ul_bottom {
   width: 100%;
