@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__background">
-        <div className="container">
+        <div className="container footer__container">
           <div className="footer__row">
             <div className="footer__col">
               <ul className="footer__col_ul">
@@ -43,7 +43,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="footer__col">
-              <ul className="footer__col_ul">
+              <ul className="footer__col__ul">
                 <li className="ul__li">
                   <a className="li__link" href="">
                     Concepten
@@ -137,50 +137,40 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="footer__container">
+      <div className="footer__container2">
         <div className="row">
           <img
-            width={40}
-            height={40}
             src={facebook}
             alt=""
             className="col-img"
           />
           <img
-            width={40}
-            height={40}
             src={youtube}
             alt=""
             className="col-img"
           />
           <img
-            width={55}
-            height={55}
             src={linkedin}
             alt=""
             className="col-img"
           />
           <img
-            width={55}
-            height={45}
             src={instagram}
             alt=""
             className="col-img"
           />
           <img
-            width={40}
-            height={40}
             src={pinterest}
             alt=""
             className="col-img"
           />
         </div>
         <img width={290} src={logo} alt="" />
-        <div className="row">
-          <h4 className="info">Algemene voorwaarden</h4>
-          <h4 className="info">Cookie</h4>
-          <h4 className="info">Privcy Statement</h4>
-          <h4 className="info">Disclaimer</h4>
+        <div className="footer__row2">
+          <h4 className="footer__info">Algemene voorwaarden</h4>
+          <h4 className="footer__info">Cookie</h4>
+          <h4 className="footer__info">Privcy Statement</h4>
+          <h4 className="footer__info">Disclaimer</h4>
         </div>
       </div>
     </footer>
