@@ -6,16 +6,6 @@ import locationImg from "../../assets/location-point.svg";
 import { IoPersonAddOutline } from "react-icons/io5";
 
 const Header = () => {
-  // состояние для отслеживания, открыто ли меню
-  const [isOpen, setIsOpen] = useState(false);
-
-  // Функция для переключения меню
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
-
-  const options = [""];
-
   return (
     <header className="header">
       <div className="container">
@@ -23,78 +13,23 @@ const Header = () => {
           <div className="header__nav_left-side">
             <ul className="first-ul">
               <li className="header__nav_link">
-                <a href="">Over HANOS</a>
+                <a href="">About HANOS</a>
               </li>
               <li className="header__nav_link">
-                <a href="">Folders</a>
-              </li>
-              <li className="header__nav_link">
-                <a href="">Nieuwsbriief</a>
-              </li>
-              <li className="header__nav_link">
-                <a href="">Evenementen</a>
-              </li>
-
-              {/* Исправлено: кнопка */}
-              <button onClick={toggleMenu} className="dropdown-button">
-                Onze partners
-              </button>
-
-              {/* Условный рендеринг меню */}
-              {isOpen && (
-                <ul className="dropmenu">
-                  <li className="dropdownmenu-link">
-                    <a href="">Fourcroy Nederland</a>
-                  </li>
-                  <li className="dropdownmenu-link">
-                    <a href="">Gastroloods</a>
-                  </li>
-                  <li className="dropdownmenu-link">
-                    <a href="">Jan van As Versvishandel</a>
-                  </li>
-                  <li className="dropdownmenu-link">
-                    <a href="">Kaja Interieurs</a>
-                  </li>
-                  <li className="dropdownmenu-link">
-                    <a href="">Studio Senses</a>
-                  </li>
-                  <li className="dropdownmenu-link">
-                    <a href="">Van der Zee horecaslager</a>
-                  </li>
-                  <li className="dropdownmenu-link">
-                    <a href="">Ebo van den Bor</a>
-                  </li>
-                  <li className="dropdownmenu-link">
-                    <a href="">HANOS Shop</a>
-                  </li>
-                  <li className="dropdownmenu-link">
-                    <a href="">Van Gestel Grootkeukentechniek</a>
-                  </li>
-                  <li className="dropdownmenu-link">
-                    <a href="">HANOS Kerstpakketten</a>
-                  </li>
-                  <li className="dropdownmenu-link">
-                    <a href="">Distrivers</a>
-                  </li>
-                </ul>
-              )}
-
-              <li className="header__nav_link">
-                <a href="">Concepten</a>
+                <a href="">Our partners</a>
               </li>
             </ul>
           </div>
 
           <div className="header__nav_right-side">
             <ul className="header__nav_right-side_ul">
-              <li>Klantenservice</li>
-              <li>Inloggen</li>
+              <li>Customer Service</li>
+              <li>Login</li>
               <li>
                 <label className="nl">
                   <select name="selectedFruit">
-                    <option value="nl">nl</option>
-                    <option value="en">en</option>
-                    <option value="dt">dt</option>
+                    <option value="nl">en</option>
+                    <option value="en">ru</option>
                   </select>
                 </label>
               </li>
@@ -105,6 +40,7 @@ const Header = () => {
       <div className="top">
         <div className="containers">
           <div className="cont">
+
             <div className="logo-searcher">
               <img className="logo" src={logo} alt="" />
               <label className="search_btn">
@@ -113,11 +49,11 @@ const Header = () => {
                   type="search"
                   placeholder="Vind uw product"
                 />
-                <button className="search-btn">Zoeken</button>
+                <button className="search-btn">Search</button>
               </label>
             </div>
 
-            <div className="info">
+            <div className="header__info">
               <div className="locations">
                 <img className="location__img" src={locationImg} alt="" />
                 <a className="location__link" href="">
@@ -142,25 +78,41 @@ const Header = () => {
           </div>
         </div>
       </div>
+
+      <div className="ass-searcher">
+        
+        <div className="assertiments">
+          Assortment 
+        </div>
+
+        <label className="ass-searcher__search_btn">
+          <input
+            className="ass-searcher__search"
+            type="search"
+            placeholder="find your product"
+          />
+          <button className="search-btn">Search</button>
+        </label>
+      </div>
+      <hr className="phone-hr" />
+
       <div className="container contaner-bottom">
         <ul className="ul_bottom">
           <li id="first" className="li_bottom">
-            Acties
+            Promotions
           </li>
-          <li className="li_bottom">AGF</li>
+          <li className="li_bottom">Vegetables & fruit</li>
           <li className="li_bottom">Convenience</li>
-          <li className="li_bottom">Diepvrier</li>
-          <li className="li_bottom">Dranken</li>
-          <li className="li_bottom">DKW</li>
-          <li className="li_bottom">Kaas</li>
+          <li className="li_bottom">Frozen</li>
+          <li className="li_bottom">Beverages</li>
+          <li className="li_bottom">Dry grocerice</li>
+          <li className="li_bottom">Cheese</li>
           <li className="li_bottom">Non-food</li>
           <li className="li_bottom">Patisserie</li>
-          <li className="li_bottom">Vis</li>
-          <li className="li_bottom">Vlees</li>
-          <li className="li_bottom">Wild & Gevogelte</li>
-          <li className="li_bottom">Zuivel & ei</li>
-          <li className="li_bottom">Uitgelicht</li>
-          <li className="li_bottom">FoodXperience</li>
+          <li className="li_bottom">Fish</li>
+          <li className="li_bottom">Meat</li>
+          <li className="li_bottom">Game & poultry</li>
+          <li className="li_bottom">dairy & egg</li>
         </ul>
       </div>
       <hr />

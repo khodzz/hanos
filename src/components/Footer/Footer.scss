@@ -1,37 +1,72 @@
-.footer__container {
-  margin: 0 auto;
-  max-width: 1450px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
+    .footer__container2 {
+      margin: 0 auto;
+      max-width: 1450px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
 
-.footer__background {
-  background: #57004e;
-}
-.footer__row {
-  height: 200px;
-  width: 100%;
-  padding: 30px 60px 0 0;
-  display: flex;
-  justify-content: space-between;
-}
-.li__link {
-  color: aliceblue;
-}
-.ul__li:first-child {
-  margin-bottom: 20px;
-  font-weight: 600;
-}
-.row {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-  margin-top: 60px;
-}
-.col-img {
-  border-radius: 50%;
-  margin: 0 0 50px 0;
-}
+    .footer__background {
+      background: #57004e;
+    }
+    .footer__row {
+      width: 100%;
+      padding: 30px 60px 0 0;
+      display: flex;
+      justify-content: space-between;
+    }
+    .li__link {
+      color: aliceblue;
+    }
+    .ul__li:first-child {
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+    .row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      margin-top: 60px;
+    }
+    .col-img {
+      border-radius: 50%;
+      margin: 0 0 50px 0;
+      width: 50px;
+      height: 50px;
+    }
+
+    @media (max-width:900px) {
+      .footer__container{
+        display: block;
+      }
+      .footer__row{
+        display: grid;
+        grid-template-rows: repeat(4,4fr);
+        padding-left: 10px ;
+        padding-bottom: 40px;
+      }
+      .footer__col{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .ul__li:first-child {
+        margin-bottom: 10px;
+        font-weight: 600;
+      }
+      .row{
+        gap: 15px;
+      }
+      .footer__row2{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+        gap: 10px;
+        padding-left: 15px;
+        padding-top: 20px;
+      }
+      .footer__info{
+        font-weight: 400;
+      }
+    }
