@@ -17,27 +17,17 @@ const Footer = () => {
               <ul className="footer__col_ul">
                 <li className="ul__li">
                   <a className="li__link" href="">
-                    Services
+                    Service
                   </a>
                 </li>
                 <li className="ul__li">
                   <a className="li__link" href="">
-                    Klantensevice
+                  Customer Service
                   </a>
                 </li>
                 <li className="ul__li">
                   <a className="li__link" href="">
-                    Bezoging
-                  </a>
-                </li>
-                <li className="ul__li">
-                  <a className="li__link" href="">
-                    Openingstijden
-                  </a>
-                </li>
-                <li className="ul__li">
-                  <a className="li__link" href="">
-                    Heroca applicaties
+                    Opening hours
                   </a>
                 </li>
               </ul>
@@ -46,32 +36,17 @@ const Footer = () => {
               <ul className="footer__col__ul">
                 <li className="ul__li">
                   <a className="li__link" href="">
-                    Concepten
+                    Concepts
                   </a>
                 </li>
                 <li className="ul__li">
                   <a className="li__link" href="">
-                    Acties en voordeel
+                    Promotion and offers
                   </a>
                 </li>
                 <li className="ul__li">
                   <a className="li__link" href="">
-                    Masterclasses
-                  </a>
-                </li>
-                <li className="ul__li">
-                  <a className="li__link" href="">
-                    Formules en concepten
-                  </a>
-                </li>
-                <li className="ul__li">
-                  <a className="li__link" href="">
-                    FoodXperience
-                  </a>
-                </li>
-                <li className="ul__li">
-                  <a className="li__link" href="">
-                    HANOS Kerstapkketten
+                    Formulas and concepts
                   </a>
                 </li>
               </ul>
@@ -80,27 +55,22 @@ const Footer = () => {
               <ul className="footer__col_ul">
                 <li className="ul__li">
                   <a className="li__link" href="">
-                    Organistie
+                    Organization
                   </a>
                 </li>
                 <li className="ul__li">
                   <a className="li__link" href="">
-                    over HANOS
+                    About HANOS
                   </a>
                 </li>
                 <li className="ul__li">
                   <a className="li__link" href="">
-                    Werken bij HANOS
+                    Frequently asked questions
                   </a>
                 </li>
                 <li className="ul__li">
                   <a className="li__link" href="">
-                    Veelgestelde vragen
-                  </a>
-                </li>
-                <li className="ul__li">
-                  <a className="li__link" href="">
-                    MVO
+                    CSR
                   </a>
                 </li>
               </ul>
@@ -109,27 +79,22 @@ const Footer = () => {
               <ul className="footer__col_ul">
                 <li className="ul__li">
                   <a className="li__link" href="">
-                    Direct Regelen
+                  Arrange immediately
                   </a>
                 </li>
                 <li className="ul__li">
                   <a className="li__link" href="">
-                    Klan Worden
+                  Become a customer
                   </a>
                 </li>
                 <li className="ul__li">
                   <a className="li__link" href="">
-                    Online bestellen
+                  Order online
                   </a>
                 </li>
                 <li className="ul__li">
                   <a className="li__link" href="">
-                    Nieuwbrief aanvragen
-                  </a>
-                </li>
-                <li className="ul__li">
-                  <a className="li__link" href="">
-                    Bezoging
+                  Delivery
                   </a>
                 </li>
               </ul>
