@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./header.scss";
 import logo from "../../assets/logo.png";
-import user from "../../assets/user-ico.png";
 import locationImg from "../../assets/location-point.svg";
 import { IoPersonAddOutline } from "react-icons/io5";
 

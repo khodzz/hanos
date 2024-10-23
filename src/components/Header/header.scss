@@ -5,7 +5,6 @@
   justify-content: space-between;
   gap: 27%;
 }
-
 .cont {
   display: flex;
   justify-content: space-between;
@@ -236,5 +235,8 @@ hr {
 @media (min-width:900px) {
     .ass-searcher{
      display: none;   
+    }
+    .phone-hr{
+      display: none;
     }
 }

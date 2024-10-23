@@ -5,7 +5,7 @@ import facebook from "../../assets/facebook-img.webp";
 import youtube from "../../assets/youtube-img.png";
 import linkedin from "../../assets/linkedin-img.png";
 import instagram from "../../assets/instagram-img.png";
-import pinterest from "../../assets/pinterest.png";
+import pinterest from "../../assets/pinterest-img.png";
 
 const Footer = () => {
   return (
