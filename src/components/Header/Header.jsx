@@ -7,7 +7,7 @@ import { IoPersonAddOutline } from "react-icons/io5";
 const Header = () => {
   return (
     <header className="header">
-      <div className="container">
+      <div className="containers">
         <nav className="nav-top">
           <div className="header__nav_left-side">
             <ul className="first-ul">

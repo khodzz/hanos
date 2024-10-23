@@ -38,6 +38,9 @@
       gap: 50px;
       margin-top: 60px;
     }
+    .footer__info{
+      font-weight: 500;
+    }
     .col-img {
       border-radius: 50%;
       margin: 0 0 50px 0;
@@ -45,7 +48,7 @@
       height: 50px;
     }
 
-    @media (max-width:900px) {
+    @media (max-width:991px) {
       .footer__container{
         display: block;
       }
@@ -76,5 +79,8 @@
       }
       .footer__info{
         font-weight: 400;
+      }
+      .footer__col_ul{
+        margin-top: 20px;
       }
     }
