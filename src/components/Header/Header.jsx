@@ -39,7 +39,6 @@ const Header = () => {
       <div className="top">
         <div className="containers">
           <div className="cont">
-
             <div className="logo-searcher">
               <img className="logo" src={logo} alt="" />
               <label className="search_btn">
@@ -79,10 +78,7 @@ const Header = () => {
       </div>
 
       <div className="ass-searcher">
-        
-        <div className="assertiments">
-          Assortment 
-        </div>
+        <div className="assertiments">Assortment</div>
 
         <label className="ass-searcher__search_btn">
           <input
