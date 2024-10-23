@@ -56,9 +56,9 @@ const Header = () => {
               <div className="locations">
                 <img className="location__img" src={locationImg} alt="" />
                 <a className="location__link" href="">
-                  Groothandels
+                  Find a store
                   <span className="location__link_span">
-                    Vind uw groothande
+                    Find your HANOS store
                   </span>
                 </a>
               </div>
@@ -95,7 +95,7 @@ const Header = () => {
       </div>
       <hr className="phone-hr" />
 
-      <div className="container contaner-bottom">
+      <div className="containers contaner-bottom">
         <ul className="ul_bottom">
           <li id="first" className="li_bottom">
             Promotions

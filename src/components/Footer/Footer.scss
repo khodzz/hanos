@@ -15,6 +15,7 @@
       padding: 30px 60px 0 0;
       display: flex;
       justify-content: space-between;
+      font-size: 18px;
     }
     .li__link {
       color: aliceblue;
@@ -23,7 +24,14 @@
       margin-bottom: 20px;
       font-weight: 600;
     }
-    .row {
+    .row{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      margin-top: 60px;
+    }
+    .footer__row2 {
       display: flex;
       justify-content: center;
       align-items: center;
