@@ -1,7 +1,19 @@
-import React from "react";
+// import { createContext } from "react";
+// import {React, useContext} from "react";
 
-const Context = () => {
-  return <div></div>;
-};
+// const Context = ({children}) => {
+//   const useContext = createContext()
 
-export default Context;
+//     const [isModalOpen, setIsModalOpen] = useState(false);
+  
+//     const openModal = () => setIsModalOpen(true);
+//     const closeModal = () => setIsModalOpen(false);
+
+//   return (
+//     <useContext.Provider value={{ isModalOpen, openModal, closeModal }}>
+//       {children}
+//     </useContext.Provider>
+//   );
+// };
+
+// export default Context;

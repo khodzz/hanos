@@ -1,0 +1,77 @@
+@import "../../styles/media-queris.scss";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@include respond-to-desktop{
+    .menu{display: none;}
+}
+.menu{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    &__container{
+        max-width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    &__logo-close{
+        width: 100%;
+        height: 55px;
+        background: #57004e;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__close{
+        color: #fff;
+        font-size: 20px;
+        background: none;
+        border: none;
+    }
+    &__content{
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    &__text{
+        font-size: 18px;
+        font-weight: 500;
+        color: black;
+    }
+    &__btns{
+        display: flex;
+        gap:5px;
+        justify-content: space-between;
+    }
+    &__login-btn{
+        min-width: 20%;
+        height: 45px ;
+        background: #57004e;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        color: #fff;
+        border-radius: 6px;
+    }
+    &__registration-btn{
+        width: 99%;
+        height: 45px ;
+        background: #f0ad4e;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        color: #fff;
+        border-radius: 6px;
+    }
+    &__about{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+}

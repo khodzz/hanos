@@ -1,3 +1,7 @@
+
+@import "../../styles/media-queris.scss";
+
+
 .containers {
   margin: 0 auto;
   max-width: 1480px;
@@ -7,7 +11,7 @@
 }
 .cont {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .nav-top {
   display: flex;
@@ -157,8 +161,67 @@ hr {
     .nav-top{
       display: none;
     }
-    .container{
-        display: none;
+    .top{
+      height: 50px;
+    }
+    .cont{
+      display: flex;
+      gap: 10px;
+    }
+    .burger-menu{
+      width:25px;
+      height: 35px;
+      margin-top: 20px;
+      position: absolute;
+      left:10px;
+    }
+
+    .burger-btn::after{
+      content: '';
+      display: block;
+      position: relative;
+      bottom: 10px;
+      width: 100%;
+      height: 2px;
+      background: #fff;
+    }
+    .burger-span{
+      position: relative;
+      display: block;
+      top: 10px;
+      width: 100%;
+      height: 2px;
+      background: #fff;   
+    }
+
+    .burger-span2{
+      position: relative;
+      display: block;
+      top: 3px;
+      width: 100%;
+      height: 2px;
+      background: #fff;   
+    }
+
+    .burger-btn::before{
+      content: '';
+      display: block;
+      position: relative;
+      top: 2px;
+      width: 100%;
+      height: 2px;
+      background: #fff;
+    }
+
+    .logo-searcher {
+      display: flex;
+      width: 120px;
+      gap: 0;
+    }
+    .header__info{
+      position: relative;
+      right: -35px;
+      gap: 10px;
     }
     .user-admin-add_link {
         display: none;
@@ -166,10 +229,14 @@ hr {
     .user-admin-add_link_span {
         display: none;
     }
+    .location__img {
+      width: 28px;
+      height: 50px;
+    }
     .icons {
         color: rgb(255, 255, 255);
-        width: 38px;
-        height: 60px;
+        width: 28px;
+        height: 50px;
         margin-right: 10px;
     }
     hr{
@@ -195,6 +262,7 @@ hr {
         grid-template-columns: repeat(2,2fr);
         // display: flex;
         // align-items: center;
+        // justify-content: space-between;
         padding: 5px;
         gap: 5px;
         // gap: 10px;
@@ -228,6 +296,7 @@ hr {
     .search-btn{
         width: 60px;
         height: 30px;
+        margin: 0;
     }
     .phone-hr{
         display: block;
@@ -235,11 +304,14 @@ hr {
     }
 }
 
-@media (min-width:900px) {
+@media (min-width:1300px) {
     .ass-searcher{
      display: none;   
     }
     .phone-hr{
+      display: none;
+    }
+    .burger_menu{
       display: none;
     }
 }

@@ -1,0 +1,50 @@
+$breakpoint-desktop-large: 1380px;
+$breakpoint-desktop: 991px;
+$breakpoint-tablet: 766px;
+$breakpoint-mobile: 390px;
+
+@mixin respond-to-desktop-large {
+  @media (min-width: $breakpoint-desktop-large) {
+    @content;
+  }
+}
+
+@mixin respond-to-desktop {
+  @media (min-width: $breakpoint-desktop) {
+    @content;
+  }
+}
+
+@mixin respond-to-tablet {
+  @media (min-width: $breakpoint-tablet) {
+    @content;
+  }
+}
+
+@mixin respond-to-mobile {
+  @media (min-width: $breakpoint-mobile) {
+    @content;
+  }
+}
+
+// @import 'path/to/media-queries'; импорт
+
+// .container {
+//   padding: 20px;
+
+//   @include respond-to-desktop-large {
+//     padding: 18px;
+//   }
+
+//   @include respond-to-desktop {
+//     padding: 15px;
+//   }
+
+//   @include respond-to-tablet {
+//     padding: 10px;
+//   }
+
+//   @include respond-to-mobile {
+//     padding: 5px;
+//   }
+// }

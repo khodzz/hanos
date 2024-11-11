@@ -130,7 +130,7 @@ const Footer = () => {
             className="col-img"
           />
         </div>
-        <img width={290} src={logo} alt="" />
+        <img width={290} src={logo} alt="" className="footer__logo" />
         <div className="footer__row2">
           <h4 className="footer__info">Algemene voorwaarden</h4>
           <h4 className="footer__info">Cookie</h4>

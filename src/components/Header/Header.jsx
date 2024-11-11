@@ -3,8 +3,24 @@ import "./header.scss";
 import logo from "../../assets/logo.png";
 import locationImg from "../../assets/location-point.svg";
 import { IoPersonAddOutline } from "react-icons/io5";
+import Menu from "../Menu/Menu"
 
 const Header = () => {
+
+  
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  // Функция для открытия модального окна
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  // Функция для закрытия модального окна
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
   return (
     <header className="header">
       <div className="containers">
@@ -39,6 +55,15 @@ const Header = () => {
       <div className="top">
         <div className="containers">
           <div className="cont">
+          <div className="burger-menu">
+            <div className="burger-btn" onClick={openModal}>
+              <span className="burger-span"></span><span className="burger-span2"></span>
+            </div>
+            {isModalOpen && (
+             <Menu/> 
+            )}
+          </div>
+          
 
             <div className="logo-searcher">
               <img className="logo" src={logo} alt="" />
@@ -79,10 +104,7 @@ const Header = () => {
       </div>
 
       <div className="ass-searcher">
-        
-        <div className="assertiments">
-          Assortment 
-        </div>
+        <div className="assertiments">Assortment</div>
 
         <label className="ass-searcher__search_btn">
           <input
@@ -115,7 +137,9 @@ const Header = () => {
         </ul>
       </div>
       <hr />
+      
     </header>
+    
   );
 };
 
