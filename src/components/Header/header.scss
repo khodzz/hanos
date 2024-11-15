@@ -4,7 +4,7 @@
 
 .containers {
   margin: 0 auto;
-  max-width: 1480px;
+  max-width: 1680px;
   display: flex;
   justify-content: space-between;
   gap: 27%;
@@ -60,14 +60,14 @@
 }
 .search {
   width: 400px;
-  height: 40px;
-  padding: 10px;
-  border-radius: 5px 0 0 5px;
-  outline: 0;
-  border: 0;
-  font-style: italic;
-  font: inherit;
-  padding-left: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    outline: 0;
+    border: 0;
+    font-style: italic;
+    font: inherit;
+    padding-left: 40px;
 }
 .search-btn {
   width: 90px;

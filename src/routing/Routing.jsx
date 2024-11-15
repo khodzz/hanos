@@ -5,6 +5,8 @@ import Home from "../pages/Home/Home";
 import Cart from "../pages/Cart/Cart";
 import Login from "../pages/Login/Login";
 import Registration from "../pages/Registration/Registration";
+import Map from "../pages/Map/Map"
+import Promotions from "../pages/Promotions/Promotions"
 
 const router = createBrowserRouter([
   {
@@ -20,12 +22,20 @@ const router = createBrowserRouter([
         element: <Cart />,
       },
       {
-        path: "login",
+        path: "/login",
         element: <Login />,
       },
       {
         path: "registration",
         element: <Registration />,
+      },
+      {
+        path: "/map",
+        element: <Map/>,
+      },
+      {
+        path: "/promotoins",
+        element: <Promotions/>,
       },
     ],
   },
